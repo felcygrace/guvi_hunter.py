@@ -1,0 +1,5 @@
+n=int(input())
+l=input().split()
+l.sort(reverse=True)
+s=''.join(l)
+print(s)
